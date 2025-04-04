@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.blog-content {
+    text-align: left; /* Or any other alignment */
+    width: 100%;      /* Take up the full container width */
+    max-width: 800px;  /* Limit the width for readability */
+    margin: 0 auto;   /* Center the content */
+  }
+  
+  .blog-content p {
+    margin-bottom: 1em;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .blog-content h1, .blog-content h2, .blog-content h3 {
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .blog-content ul, .blog-content ol {
+    margin-left: 20px;
+    margin-bottom: 1em;
+  }
+  
+  .blog-content li {
+    margin-bottom: 0.5em;
+  }
+  
